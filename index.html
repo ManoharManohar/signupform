@@ -3,47 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup Form</title>
-    <link rel="stylesheet" href="./index.css">
+    <title>SignUp form</title>
+    <!-- link css  -->
+    <link rel="stylesheet" href="./index.css"/>
+    <!-- fontawesome kit -->
+
+    <script src="https://kit.fontawesome.com/33499e0f67.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
-    <section class="sec1">
-        <div class="one">
-            <img src="https://cdn.dribbble.com/users/277921/screenshots/4223608/gw-dribbble.gif" alt="Signup Illustration" width="100%">
-        </div>
-
+   <section class="sec1">
+    <div class="one">
+        <img src="https://cdn.dribbble.com/users/277921/screenshots/4223608/gw-dribbble.gif" alt="signup" width="100%"/>
+    </div>
         <div class="two">
-            <h1>Signup Form</h1>
-            <form id="myform" action="">
-                <label for="username">User Name</label>
-                <input type="text" id="username" placeholder="Enter User Name">
-                
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Enter Email">
-                
-                <label for="phone">Phone Number</label>
-                <input type="text" id="phone" placeholder="Enter Phone Number">
-                
-                <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Enter Password">
-                
-                <label for="confirm-password">Confirm Password</label>
-                <input type="password" id="confirm-password" placeholder="Confirm Password">
-                
-                <div>
-                    <input type="checkbox" id="accept"><label for="accept">Accepted!</label>
-                </div>
-                
-                <button id="button">Submit</button>
-                
-                <hr/>
-                
-                <h6>Already have an account? <a href="#">Login</a></h6>
-                <h6>Forgot Password? <a href="#">Forgot password</a></h6>
-            </form>
-        </div>
-    </section>
+        <h1>Signup Form</h1>
+    <form id="myform">
+        <label><i class="fa-solid fa-user"></i>Username</label>
+        <input type="text"   placeholder="Username" />
+        <br>
+        <label><i class="fa-solid fa-envelope"></i>Email</label>
+        <input type="email"  placeholder="email">
+        <br>
+        <label><i class="fa-solid fa-phone"></i>Phone number</label>
+        <input type="text" placeholder="contact">
+        <br>
+        <label><i class="fa-solid fa-lock"></i>password</label>
+        <input type="password" placeholder="password">
+        <br>
+        <label><i class="fa-solid fa-lock"></i>Confirm password</label>
+        <input type="confirm password" placeholder="Confirm password">
 
+        <div class="check">
+        <input type="checkbox" /> <p>I agree the term & conditions</p>
+        </div>
+
+        <button type="submit" class="btn">Submit</button></form>
+        <hr/>
+        <h5>Already having account ?<a href="#">Login</a></h5>
+        <h5>Create a account <a href="#">New account</a></h5>
+
+
+    </div>
+   </section>
 </body>
 </html>
